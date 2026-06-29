@@ -1,13 +1,29 @@
 # 🎯 mt7902 driver development (✅ Working)
 We are trying to develop the driver for the Mediatek mt7902 wifi 6E chip
 
+## Repository summary
+
+This repository contains the manually tested MediaTek MT7902 / Filogic 310 Wi-Fi patch used to bring up the internal wireless adapter on an ASUS laptop running Ubuntu with kernel `7.0.0-1008-oem`.
+
+Verified target:
+
+* **Wi-Fi chip:** MediaTek MT7902 / Filogic 310
+* **PCI ID:** `14c3:7902`
+* **Subsystem:** AzureWave `1a3b:5520`
+* **Tested kernel:** `7.0.0-1008-oem`
+* **Tested local path:** `/home/arshad/mt7902_temp`
+* **Primary Wi-Fi patch path:** `latest/mt7921/pci.c`
+* **Firmware path:** `firmware/` and `/lib/firmware/mediatek`
+
+The tested patch adds MT7902 PCI matching and MT7902-specific `mt7921` PCI initialization handling, including firmware selection, DMA/ring layout differences, and device-specific setup needed for the adapter to bind and expose a Wi-Fi interface.
+
 ## ✅ Tested On (Verified Working)
 This fix has been verified and is confirmed working on:
 
 * **Brand:** ASUS
 * **Model:** Vivobook Go (E1404FA)
 * **Chipset:** MediaTek MT7902 (WiFi 6E)
-* **Kernel Version:** 6.19.0 (Linux)
+* **Kernel Version:** 7.0.0-1008-oem (Linux), with earlier notes for 6.x kernels retained below
 * **OS:** Ubuntu 24.04 (or similar Debian-based distros)
 
 ## 🚀 Easy Automatic Fix (Recommended)
