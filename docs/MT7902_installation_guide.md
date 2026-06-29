@@ -38,7 +38,7 @@ sudo apt install -y build-essential linux-headers-$(uname -r) bc
 커뮤니티 패치 버전인 `mt7902_temp` 저장소를 다운로드합니다. (현재 가이드는 이 저장소에 포함된 자동화 패치를 기준으로 합니다.)
 ```bash
 cd ~/dev
-git clone --depth 1 https://github.com/OnlineLearningTutorials/mt7902_temp
+git clone --depth 1 https://github.com/Tiger-sudo894/mt7902_temp
 cd mt7902_temp/latest
 ```
 

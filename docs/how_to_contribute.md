@@ -1,6 +1,6 @@
 # MT7902 드라이버 가이드 기여 방법 (Contribution Guide)
 
-작성한 가이드를 원본 저장소(`OnlineLearningTutorials/mt7902_temp`)에 반영하여 다른 사용자들이 도움을 받을 수 있도록 기여하는 방법은 크게 두 가지가 있습니다.
+작성한 가이드를 원본 저장소(`Tiger-sudo894/mt7902_temp`)에 반영하여 다른 사용자들이 도움을 받을 수 있도록 기여하는 방법은 크게 두 가지가 있습니다.
 
 ---
 
@@ -9,7 +9,7 @@
 GitHub의 표준 기여 방식입니다. 본인의 계정으로 저장소를 복사(Fork)한 뒤, 수정사항을 제안하는 방식입니다.
 
 ### 1단계: GitHub에서 Fork 하기
-1. [OnlineLearningTutorials/mt7902_temp](https://github.com/OnlineLearningTutorials/mt7902_temp) 페이지에 접속합니다.
+1. [Tiger-sudo894/mt7902_temp](https://github.com/Tiger-sudo894/mt7902_temp) 페이지에 접속합니다.
 2. 우측 상단의 **[Fork]** 버튼을 클릭하여 본인의 계정으로 저장소를 복사합니다.
 
 ### 2단계: 본인의 저장소를 연결하고 파일 업로드 (터미널 이용)
@@ -40,7 +40,7 @@ git push my-fork add-docs-korean
 
 Git 명령어가 복잡하게 느껴진다면, "문제 보고(Issue)" 기능을 통해 정보를 공유할 수 있습니다.
 
-1. [Issues](https://github.com/OnlineLearningTutorials/mt7902_temp/issues) 탭으로 이동합니다.
+1. [Issues](https://github.com/Tiger-sudo894/mt7902_temp/issues) 탭으로 이동합니다.
 2. **[New issue]** 를 클릭합니다.
 3. 제목을 `[Document] Korean Installation Guide for Kernel 6.17+` 로 작성합니다.
 4. 방금 작성한 `MT7902_installation_guide.md` 파일의 내용을 본문에 복사해서 붙여넣거나, 파일을 첨부합니다.

@@ -31,7 +31,7 @@ If you want to quickly fix your WiFi and Bluetooth on any modern kernel, follow 
 
 1. **Open your terminal** and clone the repository:
    ```bash
-   git clone --depth 1 https://github.com/OnlineLearningTutorials/mt7902_temp
+   git clone --depth 1 https://github.com/Tiger-sudo894/mt7902_temp
    cd mt7902_temp
    ```
 
@@ -56,11 +56,11 @@ Recently released firmware are in the `mt7902_firmware/latest` folder.
 ## 📁 Cloning the repository
 Clone the repository to your local pc
   ```
-  git clone https://github.com/OnlineLearningTutorials/mt7902_temp
+  git clone https://github.com/Tiger-sudo894/mt7902_temp
   ```
 If you don't want to clone past history than 
   ```
-  git clone --depth 1 https://github.com/OnlineLearningTutorials/mt7902_temp
+  git clone --depth 1 https://github.com/Tiger-sudo894/mt7902_temp
   ```
 
 
